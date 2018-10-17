@@ -1,0 +1,10 @@
+---
+title: Dream of Writing a blog
+---
+Yes, Making a blog and posting constantly is also one of the items in my bucket list for a long time.
+
+Actually, I have tried to accomplish this dream many years ago. I wrote about some random tech hacks, one or two cricket stories and by strong procrastination, I stopped doing that (Forget actually). On my mid years at college while studying engineering I have bought almost 3 or 4 domains that too essentially goes vain.
+
+### Restart
+
+And again I am planning to post continuously about technology, things I came to know in day to day life and interesting facts. ideally, I strongly believe I can go with the path this time.

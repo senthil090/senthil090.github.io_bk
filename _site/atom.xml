@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Senthilkumar S | Front End Developer</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <id>http://localhost:4000</id>
+ <updated>2018-10-17T23:40:23+05:30</updated>
+ <author>
+   <name>Senthilkumar Subramanian</name>
+   <uri>http://senthil090.github.io</uri>
+   <email>senthil24jun@gmail.com</email>
+ </author>
+
+ 
+
+ <entry>
+   <title>Dream of Writing a blog</title>
+   <link href="http://localhost:4000/Dream-of-Writing-a-blog"/>
+   <id>http://localhost:4000/Dream of Writing a blog</id>
+   <updated>2018-10-17T00:00:00+05:30</updated>
+   <content type="html">&lt;p&gt;Yes, Making a blog and posting constantly is also one of the items in my bucket list for a long time.&lt;/p&gt; &lt;p&gt;Actually, I have tried to accomplish this dream many years ago. I wrote about some random tech hacks, one or two cricket stories and by strong procrastination, I stopped...</content>
+ </entry>
+
+ 
+
+</feed>
