@@ -1,26 +1,23 @@
 <head>
-	<!-- Meta -->
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="generator" content="Jekyll">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% seo %}
 
-	<!-- CSS & fonts -->
-	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic%7CSignika:700,300,400,600' rel='stylesheet' type='text/css'>
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
 
-	<!-- RSS -->
-	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127658739-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- RSS -->
+  {% feed_meta %}
 
-  gtag('config', 'UA-127658739-1');
-</script>
-
+  <!-- Google Analytics-->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
