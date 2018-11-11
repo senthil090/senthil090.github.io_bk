@@ -1,5 +1,6 @@
 ---
 title: Dream of Writing a blog
+layout: post
 ---
 Yes, Making a blog and posting constantly is also one of the items in my bucket list for a long time.
 
